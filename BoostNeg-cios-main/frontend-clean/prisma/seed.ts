@@ -9,11 +9,11 @@ async function main() {
     create: {
       email: 'demo@boostnegocios.com',
       name: 'Demo User Premium',
-      agents: '150',
+      agents: '250',  // ← 250 AGENTES
       subscription: 'premium-active'
     }
   })
-  console.log('Demo user PREMIUM 150 agentes criado!')
+  console.log('Demo user PREMIUM 250 agentes!')
 }
 
 main()
